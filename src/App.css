@@ -1,0 +1,207 @@
+/* 公共区 */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  html {
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased
+  }
+
+  body,
+  html {
+    /* height: 100%; */
+    background-color: #f4f4f4
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  #root,.App {
+      height: 100%;
+  }
+
+.nav_wrapper{
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #d2d2d2;
+}
+.main_wrapper{
+    padding-top: 45px;
+    padding-bottom: 47px;
+    height: 100%;
+}
+
+
+/* 查看更多产品 */
+.more_wrapper{
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    height: 47px;
+    width: 100%;
+    background: #199ed8;
+
+}
+.more_wrapper>div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.more_wrapper>div>a {
+    display: flex;
+    width: 100%;
+     height: 100%;
+    align-items: center;
+    justify-content: center;
+     color: #000000;
+
+
+}
+.more_wrapper>div:first-child{
+    border-right: 1px solid #000000;
+}
+
+.more_title {
+    text-align: left;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+/* 产品列表 */
+.tab_wrapper {
+height: 100%;
+}
+.cennter_title{
+    display: flex;
+    width: 100%;
+    /* text-align: center; */
+   align-items: center;
+}
+.cennter_title>div{
+    flex: 1;
+    text-align: center;
+}
+.cennter_title > .line {
+    height: 10px;
+    width: 1px;
+    background: #d2d2d2;
+    /* height: ; */
+}
+.cennter_title > .line:nth-child(1){
+    
+    justify-content: flex-start;
+}
+.cennter_title > .line:nth-child(2){
+    justify-content: flex-end;
+}
+
+.list_main{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    background: #ffffff;
+    /* overflow: hidden; */
+    border-bottom: 10px solid #f5f5f5;
+}
+.list_content >.list_content_left{
+    flex: 1;
+} 
+.list_content_left>div {
+    display: flex;
+}
+
+
+
+.list_top{
+    display: flex;
+}
+.list_top >div>img {
+    width: 42px;
+    height: 42px;
+}
+.list_top>div>.title{
+    font-size: 17px;
+
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.list_top>div>.title>img{
+    width: 9px;
+    height: 10px;
+    margin: 0 3px;
+}
+.list_top>div:first-child{
+    display: flex;
+    flex:1;
+}
+.list_top>.count{
+     color: #666666;
+}
+.list_detail{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.list_detail>.left>.title{
+    text-align: center; 
+}
+.list_detail>.left{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.list_detail>.apply_action{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 108px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #1ca1dc;
+    color: #ffffff;
+    border-radius: 15px
+}
+.list_detail>.center>.account, .list_detail>.left>.account{
+margin-top: 10px;
+color: #1d76cd;
+}
+
+.list_top>div>.title>img:first-child{
+    margin-left: 8px;
+}
+
+.list_detail>.center>.title{
+    text-align: center;
+}
+
+
+.list_main>.list_line{
+    height: 1px;
+    width: 100%;
+    background: #d2d2d2;
+}
+.list_main>.footer_txt{
+    color: #666666;
+    padding-left: 16px;
+    margin: 8px 0;
+}
