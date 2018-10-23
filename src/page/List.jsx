@@ -58,8 +58,8 @@ class List extends Component {
                 <div className="nav_wrapper">
                     <NavBar
                         mode="light"
-                        icon={<Icon type="left" style={{ 'color': '#000000' }} />}
-                        onLeftClick={() => this.props.history.goBack()  }
+                        // icon={<Icon type="left" style={{ 'color': '#000000' }} />}
+                        // onLeftClick={() => this.props.history.goBack()  }
                     >51飞借</NavBar>
                 </div>
                 <div className="tab_wrapper">

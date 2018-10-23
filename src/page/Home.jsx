@@ -21,13 +21,13 @@ class Home extends Component {
                 <div className="nav_wrapper">
                     <NavBar
                         mode="light"
-                        icon={<Icon type="left" style={{ 'color': '#000000' }} />}
-                        onLeftClick={() => console.log('onLeftClick')}
-                    >宝贝借呗</NavBar>
+                        // icon={<Icon type="left" style={{ 'color': '#000000' }} />}
+                        // onLeftClick={() => console.log('onLeftClick')}
+                    >叮当白卡</NavBar>
                 </div>
         
                 {/* 这里是Home */}
-                <iframe src="https://tui.weidaibaobei1.com/#/spread?bcode=Go5Vff7vpqx" 
+                <iframe src="http://reg.realzea.cn/?aid=457" 
                     frameBorder="0"
                     //  scrolling="no"
                     scrolling="auto"

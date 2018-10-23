@@ -83,7 +83,7 @@ class More extends Component {
             }
                 
               
-                <div onClick={this.showModal('modal1')}>快速咨询</div>
+                <div onClick={this.showModal('modal1')}>更多产品咨询</div>
             </div>
         );
     }
